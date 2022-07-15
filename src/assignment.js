@@ -38,17 +38,13 @@ assignment.sumOfNumbers = sumOfNumbers;
  * @param {Array} arrayOfNumbers the array containing even or non-even numbers
  * @returns number the count of even numbers
  */
-function countEvenNumbers(arrayOfNumbers) {
-    return arrayOfNumbers.length;
-}
-function getEvenNumbers() {
-  let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
+function countEvenNumbers(arr) {
+    
   const even = arr.filter(number =>  number % 2 === 0);
 
   return even
 }
-countEvenNumbers ( getEvenNumbers() )
 
 assignment.countEvenNumbers = countEvenNumbers;
 
