@@ -19,13 +19,12 @@ let sum = 0;
 for (let i = 0; i < someNumbers.length; i++) {
     sum += someNumbers[i];
 }
-console.log(sum);
+
 
 function sumOfNumbers(someNumbers) {
     return someNumbers.length;
 }
 
-console.log(sumOfNumbers(someNumbers))
 assignment.sumOfNumbers = sumOfNumbers;
 
 /**
