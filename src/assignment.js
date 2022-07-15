@@ -67,8 +67,8 @@ function convertCToF(celcius){
  return f
 }
 function celsiusToFahrenheit(arrayOfNumbers) {
-  let result = arrayOfNumbers.map(celcius => convertCToF(celcius))
-    return result;
+  let result = arrayOfNumbers.map(celcius =>  Math.trunc (convertCToF(celcius)))
+  return result;
 }
 assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
