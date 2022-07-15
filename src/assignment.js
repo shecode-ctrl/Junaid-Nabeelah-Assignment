@@ -43,7 +43,7 @@ function countEvenNumbers(arr) {
     
   const even = arr.filter(number =>  number % 2 === 0);
 
-  return even
+  return even.length
 }
 
 assignment.countEvenNumbers = countEvenNumbers;
